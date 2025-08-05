@@ -38,7 +38,7 @@ source spotify/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
-3. Run the Main.py to get started
+3. Run the Main.py to get started. The songs will be downloaded into a folder named Downloads within the spotify folder automatically.
 
 4. Deactivate the v_env once you are done.
 ```bash
