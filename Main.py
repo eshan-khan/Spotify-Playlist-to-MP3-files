@@ -5,7 +5,7 @@ import yt_dlp
 
 
 def spotify_playlist(link):
-    client_id = '4bcbba261e9641129fd3bfd08a6e72eb'
+    client_id = ''
     client_secret = ''
 
     auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
