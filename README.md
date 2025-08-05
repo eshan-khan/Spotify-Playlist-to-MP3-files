@@ -51,7 +51,7 @@ spotify\Scripts\activate
 # for linux/macOS
 source spotify/bin/activate
 ```
-2. Download required python packages, **you only need to do this once**.
+2. Change directory into spotify folder and download required python packages, **you only need to do this once**.
 ```bash
 pip install -r requirements.txt
 ```
