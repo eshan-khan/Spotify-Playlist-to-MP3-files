@@ -1,0 +1,50 @@
+# Spotify Playlist to MP3 files
+
+Reads names of the songs in your public Spotify Playlist and downloads them using yt_dlp
+
+## Prerequisites 
+
+The Main.py needs a secret client key from the user and it needs to be done manually
+
+1. Go to [Spotify API](https://developer.spotify.com/dashboard) and go to dashboard 
+2. Create an app, set the uri as http://localhost:8000/callback and select Web API in the checkbox below
+3. Copy the secret client key.
+
+## Setting up the script
+
+1. Make sure to download both Main.py and requirements.txt and put them in an empty folder
+2. Go to line 9 in Main.py and paste the client secret key.
+```python
+client_secret = 'paste_it_here'
+```
+2. Next, create a virual python env using terminal. This creates a folder (virtual environmet) called spotify .
+```bash
+python -m venv spotify
+```
+3. Move both Main.py and requirements.txt into it
+
+## Running the script
+
+1. Activate the virtual. You need to do this each time you want to run the code.
+```bash
+# for windows
+
+spotify\Scripts\activate
+
+# for linux/macOS
+source myproject_env/bin/activate
+```
+2. Download required python packages, you only need to do this once.
+```bash
+pip install -r requirements.txt
+```
+3. Run the Main.py to get started
+
+4. Deactivate the v_env once you are done.
+```bash
+deactivate
+```
+
+
+
+
