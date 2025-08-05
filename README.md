@@ -4,11 +4,12 @@ Reads names of the songs in your public Spotify Playlist and downloads them usin
 
 ## Prerequisites 
 
-The Main.py needs a secret client key from the user and it needs to be done manually
+The Main.py needs a secret client key and client key from the user and it needs to be done manually.
+The user also must have FFmpeg in their system [FFmpeg](https://ffmpeg.org/)
 
 1. Go to [Spotify API](https://developer.spotify.com/dashboard) and go to dashboard 
 2. Create an app, set the uri as https://localhost:8000/callback and select Web API in the checkbox below
-3. Copy the secret client key.
+3. Copy the secret client key and client key.
 
 ## Setting up the script
 
@@ -16,6 +17,7 @@ The Main.py needs a secret client key from the user and it needs to be done manu
 2. Go to line 9 in Main.py and paste the client secret key.
 ```python
 client_secret = 'paste_it_here'
+client_id = 'paste_it_here'
 ```
 2. Next, create a virual python env using terminal. This creates a folder (virtual environmet) called spotify .
 ```bash
