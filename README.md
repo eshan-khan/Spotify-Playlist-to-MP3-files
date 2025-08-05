@@ -32,7 +32,7 @@ python -m venv spotify
 spotify\Scripts\activate
 
 # for linux/macOS
-source myproject_env/bin/activate
+source spotify/bin/activate
 ```
 2. Download required python packages, you only need to do this once.
 ```bash
