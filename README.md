@@ -5,7 +5,7 @@ Reads names of the songs in your public Spotify Playlist and downloads them usin
 ## Prerequisites 
 
 The Main.py needs a secret client key and client key from the user and it needs to be done manually.
-1. Go to [Spotify API](https://developer.spotify.com/dashboard) and go to dashboard 
+1. Go to [Spotify API](https://developer.spotify.com/dashboard) and go to dashboard.**WARNING! Your account may get suspended so use spare account for this.**
 
 2. Create an app, set the uri as https://localhost:8000/callback and select Web API in the checkbox below
 
